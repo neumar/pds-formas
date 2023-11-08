@@ -10,5 +10,3 @@ def perimetroHexagono(lado):
     perimetroHexagono = 6 * lado
     return perimetroHexagono
 
-print(areaHexagono(14))
-print(perimetroHexagono(6))
