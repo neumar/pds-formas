@@ -1,12 +1,14 @@
 import math
 
 # calcula a area de um hexagono regular
-def area(lado):
-    #
-    #
-    return
+def areaHexagono(lado):
+    areaHexagono = 6 * (((lado*lado) * math.sqrt(3)) / 4 )
+    return areaHexagono
 
 # calcula o perimetro de um hexagono regular
-def perimetro(lado):
-    #
-    return
+def perimetroHexagono(lado):
+    perimetroHexagono = 6 * lado
+    return perimetroHexagono
+
+print(areaHexagono(14))
+print(perimetroHexagono(6))
