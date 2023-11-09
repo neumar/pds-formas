@@ -1,10 +1,10 @@
 
 #calcula area do quadrado
 def area(lado):
-    #
-    return 
+    areaQuadrado = Lado * Lado
+    return(areaQuadrado) 
 
 #calcula perimetro do quadrado
 def perimetro(lado):
-    #
-    return
+    perimetroQuadrado = Lado * 4
+    return(perimetroQuadrado)
