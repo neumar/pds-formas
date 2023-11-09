@@ -2,10 +2,10 @@ Pi = 3.1415
 
 # calcula a area de um circulo
 def area(raio):
-    #
-    return
+    areaCirculo = Pi * (raio ** 2)
+    return areaCirculo
 
-#calcula o comprimenot do circunferencia
+#calcula o comprimento do circunferencia
 def comprimento_circunferencia(raio):
-    #
-    return
+    compriCircun = 2 * (raio * Pi)
+    return compriCircun
