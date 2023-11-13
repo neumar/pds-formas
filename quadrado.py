@@ -14,3 +14,5 @@ def perimetro(lado):
 lado = float(input("valor do lado para perimetro: "))
 perimetro_resultado = perimetro(lado)
 print(perimetro_resultado)
+ #trabalho finalizado parte Lucas
+ 
